@@ -50,13 +50,14 @@
     <div class="container">
         <div class="mainBox">
             <h2>Tip Calculator</h2>
-            <label for="billAmount">Bill Amount:</label>
+            <hr>
+            <label class="tipLabel" for="billAmount">Bill Amount:</label>
             <input type="number" id="billAmount" placeholder="Enter Bill Amount">
             <br>
-            <label for="tipPercentage">Tip Percentage:</label>
+            <label class="tipLabel" for="tipPercentage">Tip Percentage:</label>
             <input type="number" id="tipPercentage" placeholder="Enter Tip Percentage">
             <br>
-            <button onclick="calculateTip()">Calculate Tip</button>
+            <button class="tipButton" onclick="calculateTip()">Calculate Tip</button>
             <h3 id="tipAmount">Tip Amount: $0</h3>
             <h3 id="totalAmount">Total Amount: $0</h3>
 
